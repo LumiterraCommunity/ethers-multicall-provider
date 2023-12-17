@@ -21,6 +21,7 @@ export const multicallAddresses = new Set([
 export const multicall3ChainAddress: { [chainId: number]: string } = {
   280: multicall3ZkSyncAddress, // zkSync Ero Goerli
   324: multicall3ZkSyncAddress, // zkSync Era
+  94168: multicall3LayerLumiAddress, // lumiterra layer3
 };
 
 export const multicall3DeploymentBlockNumbers: { [chainId: number]: number } = {
