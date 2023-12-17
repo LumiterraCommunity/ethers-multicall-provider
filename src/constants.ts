@@ -6,10 +6,13 @@ export const multicall2LayerLumiAddress = "0x90B02D9F861017844F30dFbdF725b6aa84E
 // same address on all networks: https://www.multicall3.com/deployments
 export const multicall3Address = "0xcA11bde05977b3631167028862bE2a173976CA11";
 
+export const multicall3LayerLumiAddress = "0xfaB95E15849f102b3B0BcEf5C2332dA7e06F6037";
+
 export const multicall3ZkSyncAddress = "0xF9cda624FBC7e059355ce98a31693d299FACd963";
 
 export const multicallAddresses = new Set([
   multicall2Address.toLowerCase(),
+  multicall3LayerLumiAddress.toLowerCase(),
   multicall2LayerLumiAddress.toLowerCase(),
   multicall3Address.toLowerCase(),
   multicall3ZkSyncAddress.toLowerCase(),
@@ -51,6 +54,7 @@ export const multicall3DeploymentBlockNumbers: { [chainId: number]: number } = {
   14: 3002461, // Flare
   280: 5885690, // zkSync Ero Goerli
   324: 3908235, // zkSync Era
+  94168: 43 // lumiterra layer3
 };
 
 export const multicall2DeploymentBlockNumbers: { [chainId: number]: number } = {
